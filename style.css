@@ -145,3 +145,40 @@ main{
   .whatsapp-btn{font-size:.85rem;}
   .product-card img{height:140px;}
 }
+
+/* ------------- NOVAS MEDIA-QUERIES ------------- */
+/* Telas até 600 px → 2 colunas + ajustes de paddings */
+@media (max-width: 600px){
+
+  /* hero menor */
+  .hero{
+    padding: 45px 15px 60px;
+  }
+
+  /* grid passa a 2 colunas */
+  #product-container{
+    grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
+    gap: 14px;
+  }
+
+  /* cartões mais compactos */
+  .product-card img{height: 130px;}
+  .product-card h3{font-size: .95rem;}
+  .product-card .price{margin-bottom: 10px;}
+
+  /* botões da paginação ocupam toda a largura */
+  .pagination button{
+    flex: 1 1 120px;
+    width: 100%;
+    margin-top: 4px;
+  }
+}
+
+/* Telas até 350 px → 1 coluna */
+@media (max-width: 350px){
+  #product-container{
+    grid-template-columns: 1fr;
+  }
+  .product-card img{height: 140px;}
+  .hero h1{font-size: 1.8rem;}
+}
