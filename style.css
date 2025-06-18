@@ -6,6 +6,10 @@ body{background:#fafafa;min-height:100vh;}
 .hero{background:#E91E63;color:#fff;text-align:center;padding:40px 10px;}
 .hero h1{font-size:2.2rem;font-weight:700;letter-spacing:-1px;}
 .hero span{font-weight:900;}
+/* ===== TITULO DA PÁGINA ===== */
+h1{
+  color: #eee;
+}
 
 /* ===== NAVEGAÇÃO DE CATEGORIAS ===== */
 #category-nav{

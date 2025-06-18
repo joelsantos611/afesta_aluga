@@ -7,10 +7,20 @@ const products = [
   { id: 1, name: 'Painel de festa unicornio colorido', price: 10000, img: 'img/painelUnicornio.jpeg', category: 'Arcos & Backdrops' },
   { id: 1, name: 'Painel de festa Happy Birthday ouro', price: 10000, img: 'img/painelHappyOuro.jpeg', category: 'Arcos & Backdrops' },
   { id: 1, name: 'Painel de festa Happy Birthday', price: 10000, img: 'img/painelHappy.jpeg', category: 'Arcos & Backdrops' },
-  { id: 1, name: 'Painel de festa Boys and Girls', price: 10000, img: 'img/painelBoysGirl.jpeg', category: 'Arcos & Backdrops' },
+  { id: 1, name: 'Painel de festa grande Boys and Girls', price: 10000, img: 'img/painelBoysGirl.jpeg', category: 'Arcos & Backdrops' },
   { id: 1, name: 'Painel Metalizado', price: 10000, img: 'img/painelMetalizado.jpeg', category: 'Arcos & Backdrops' },
-  { id: 2, name: 'Cortina de Luzes LED',    price: 40,  img: 'images/luzes-led.jpg',   category: 'cilindros' },
-  { id: 3, name: 'Centro de Mesa Vintage',  price: 12,  img: 'images/centro-vintage.jpg', category: 'Centros de Mesa' },
+  { id: 2, name: 'Cubo Organico verde',    price: 10000,  img: 'img/cuboOrganico.jpeg',   category: 'cubos e cilindros' },
+  { id: 2, name: 'Cubo Organico Amarelo',    price: 10000,  img: 'img/cuboOrganicoAmarelo.png',   category: 'cubos e cilindros' },
+  { id: 2, name: 'Cubo Organico Azul',    price: 10000,  img: 'img/cuboOrganicoAzul.jpeg',   category: 'cubos e cilindros' },
+  { id: 2, name: 'Cilindro Grande',    price: 10000,  img: 'img/cilindroGrande.jpeg',   category: 'cubos e cilindros' },
+  { id: 2, name: 'Cilindro Médio',    price: 8000,  img: 'img/cilindroMedio.jpeg',   category: 'cubos e cilindros' },
+    // --- EXEMPLOS: substitua / adicione até 199+ itens ---
+
+  { id: 2, name: 'Cadeira infantil Azul',    price: 500,  img: 'img/cadeiraAzul.jpeg',   category: 'Mesas, Cômodas e Cadeiras' },
+  { id: 2, name: 'Cadeira infantil Branca',    price: 500,  img: 'img/cadeiraBranca.jpeg',   category: 'Mesas, Cômodas e Cadeiras'},
+  { id: 2, name: 'Cadeira infantil Rosa',    price: 500,  img: 'img/cadeiraRosa.jpeg',   category: 'Mesas, Cômodas e Cadeiras'},
+  { id: 2, name: 'Comoda preta',    price: 10000,  img: 'img/comodaPreta.jpeg',   category: 'Mesas, Cômodas e Cadeiras'},
+  { id: 2, name: 'Comoda Branca',    price: 10000,  img: 'img/comodaBranca.jpeg',   category: 'Mesas, Cômodas e Cadeiras'},
   { id: 3, name: 'Centro de Mesa Vintage',  price: 12,  img: 'images/centro-vintage.jpg', category: 'Vasos e bases' },
   // … acrescente os demais objetos, cada qual com category …
 ];
