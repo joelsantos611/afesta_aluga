@@ -6,7 +6,7 @@ const products = [
   { id: 1, name: 'Backdrop Multi-arco', price: 10000, img: 'img/backdropbranco.jpeg', category: 'Arcos & Backdrops' },
   { id: 1, name: 'Painel de festa unicornio colorido', price: 10000, img: 'img/painelUnicornio.jpeg', category: 'Arcos & Backdrops' },
   { id: 1, name: 'Painel de festa Happy Birthday ouro', price: 10000, img: 'img/painelHappyOuro.jpeg', category: 'Arcos & Backdrops' },
-  { id: 1, name: 'Painel de festa Happy Birthday', price: 10000, img: 'img/painelHappy.jpeg', category: 'Arcos & Backdrops' },
+  { id: 1, name: 'Painel de festa Happy Birthday Borboleta', price: 10000, img: 'img/painelHappy.jpeg', category: 'Arcos & Backdrops' },
   { id: 1, name: 'Painel de festa grande Boys and Girls', price: 10000, img: 'img/painelBoysGirl.jpeg', category: 'Arcos & Backdrops' },
   { id: 1, name: 'Painel Metalizado', price: 10000, img: 'img/painelMetalizado.jpeg', category: 'Arcos & Backdrops' },
   { id: 2, name: 'Cubo Organico verde',    price: 10000,  img: 'img/cuboOrganico.jpeg',   category: 'cubos e cilindros' },
@@ -21,7 +21,12 @@ const products = [
   { id: 2, name: 'Cadeira infantil Rosa',    price: 500,  img: 'img/cadeiraRosa.jpeg',   category: 'Mesas, Cômodas e Cadeiras'},
   { id: 2, name: 'Comoda preta',    price: 10000,  img: 'img/comodaPreta.jpeg',   category: 'Mesas, Cômodas e Cadeiras'},
   { id: 2, name: 'Comoda Branca',    price: 10000,  img: 'img/comodaBranca.jpeg',   category: 'Mesas, Cômodas e Cadeiras'},
-  { id: 3, name: 'Centro de Mesa Vintage',  price: 12,  img: 'images/centro-vintage.jpg', category: 'Vasos e bases' },
+  { id: 3, name: 'Base de bolo cor verde',  price: 500,  img: 'img/vasoVerde.jpeg', category: 'Vasos e bases' },
+  { id: 3, name: 'Vaso de decoração',  price: 500,  img: 'img/vasoAzul.jpeg', category: 'Vasos e bases' },
+  { id: 3, name: 'Base de bolo cor verde',  price: 500,  img: 'img/vasoVerde.jpeg', category: 'Vasos e bases' },
+  { id: 3, name: 'Base de bolo cor verde',  price: 500,  img: 'img/vasoVerde.jpeg', category: 'Vasos e bases' },
+  { id: 3, name: 'Base de bolo cor verde',  price: 500,  img: 'img/vasoVerde.jpeg', category: 'Vasos e bases' },
+  { id: 3, name: 'Base de bolo cor verde',  price: 500,  img: 'img/vasoVerde.jpeg', category: 'Vasos e bases' },
   // … acrescente os demais objetos, cada qual com category …
 ];
   
